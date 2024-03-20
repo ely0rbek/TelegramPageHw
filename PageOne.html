@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="PageOne.css" />
+    <!-- @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); -->
+    <title>PageOne</title>
+  </head>
+  <body>
+    <form action="">
+      <img src="./images/telegram.png" alt="" />
+      <h1>Telegram</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing . Ipsum, asperiores?
+      </p>
+      <fieldset class="flex">
+        <legend>Country</legend>
+        <select name="Country" id="country">
+          <option value="Uzbekistan">Uzbekistan</option>
+          <option value="Russia">Russia</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Your phone number</legend>
+        <input type="tel" name="phone_number" id="phone_number" value="+998 " />
+      </fieldset>
+
+      <div class="box">
+        <input
+          type="checkbox"
+          name="keep_signed"
+          id="box"
+          style="margin-right: 20px"
+        />
+        <label for="box">Keep me signed in</label>
+      </div>
+      <div class="flex">
+        <button>Login in by QR CODE</button>
+      </div>
+    </form>
+  </body>
+</html>
